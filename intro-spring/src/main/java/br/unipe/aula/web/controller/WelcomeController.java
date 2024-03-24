@@ -8,8 +8,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class WelcomeController {
 	
 	@RequestMapping(value = "/teste", method = RequestMethod.GET)
-	public String welcome() {
+	public String welcome() { 
 		return "welcome";
 	}
 
+	public Integer retornaNumero () {
+		return 10 ;
+	}
+		
 }
