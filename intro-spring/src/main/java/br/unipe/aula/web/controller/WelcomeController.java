@@ -12,6 +12,10 @@ public class WelcomeController {
 		return "welcome";
 	}
 
+	public Integer retornaNumero () {
+		return 10 ;
+	}
+
 	public String retornaTexto() {
 		return "texto texto";
 	}
