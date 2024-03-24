@@ -13,7 +13,7 @@ public class WelcomeController {
 	}
 
 	public String retornaTexto() {
-		return "texto";
+		return "texto texto";
 	}
 
 }
