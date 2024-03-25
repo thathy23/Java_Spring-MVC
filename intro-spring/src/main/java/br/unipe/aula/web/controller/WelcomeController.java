@@ -20,4 +20,8 @@ public class WelcomeController {
 		return "texto texto";
 	}
 
+	public Boolean retornBoolean() {
+		return true;
+	}
+
 }
