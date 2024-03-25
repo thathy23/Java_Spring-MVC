@@ -12,4 +12,8 @@ public class WelcomeController {
 		return "welcome";
 	}
 
+	public Boolean retornBoolean() {
+		return true;
+	}
+
 }
